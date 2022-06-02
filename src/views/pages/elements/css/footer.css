@@ -1,7 +1,3 @@
-/* html {
-  width: 100%;
-} */
-
 .footer {
   width: 100%;
   display: flex;
@@ -74,8 +70,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-right: 30px; */
-  /* width: 20em; */
+  margin-right: 30px;
+  width: 20em;
   color: #ffffff;
 }
 
@@ -127,12 +123,6 @@
     }
 }
 
-/* @media(max-width:760px) {
-  .right {
-    margin: 0;
-  }
-} */
-
 @media(max-width:750px) {
   .footer {
     flex-direction: column;
@@ -140,31 +130,42 @@
     justify-content: center;
     height: auto;
   }
+
+  .team-list {
+    width: 256px;
+  }
     .copyright {
       display: none;
     }
 
     .right {
       text-align: center;
+      margin: 0 auto;
     }
 
     .news-text {
       margin: 0 auto;
     }
 
+    .newsletter {
+      width: 256px;
+      margin: 0 auto;
+    }
+
     .input-email {
-      width: 200px;
+      width: 180px;
       height: 40px;
       margin-top: 10px;
     }
 
   .btn-subs {
     margin: 1em;
-    width: 100px;
+    width: 80px;
     height: 40px;
   }
 
   .socials {
-    width: 320px;
+    margin: 0 auto;
+    width: 256px;
   }
 }
