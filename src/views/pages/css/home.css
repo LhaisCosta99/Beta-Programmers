@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Chakra+Petch:wght@300;400;500;600;700&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=PT+Sans&family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0EFF4;
+}
+
+img {
+    width: 600px;
+    height: 580px;
+}
+
+.carousel-caption .h2-1 {
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    color: #F0EFF4;
+    font-weight: bold;
+    width: 30%;
+    font-size: 60px;
+}
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+    color: #F0EFF4;
+    font-weight: bold;
+    font-size: 40px;
+    color: #291528;
+}
+
+.comunity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comunity-title {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.comunity-title h1 {
+    color: #291528;
+}
+
+.comunity-title img {
+    width: 80px;
+    height: 80px;
+}
+.comunity-reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunity-reasons img {
+    width: 90px;
+    height: 90px;
+}
+
+
+.comunity-reasons-1 .comunity-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.comunity-reasons-1 .comunity-card p {
+  width: 70%;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.comunity-reasons-1 .comunity-card h2 {
+    padding: 20px 10px 0px 0px;
+}
+
+.comunity-reasons-down .comunity-card img {
+    width: 90px;
+    height: 90px;
+}
+
+.comunity-reasons-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunity-reasons-down .comunity-card h2 {
+    width: 70%;
+    padding: 20px 10px 0px 0px;
+}
+
+.comunity-reasons-down .comunity-card .h2-class {
+    width: 80%;
+}
+
+.btn-planes {
+    background: #291528;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    margin-top: 25px;
+}
+   
+.btn-planes .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.1em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+   
+.btn-planes:hover .icon {
+    width: calc(100% - 0.6em);
+ }
+   
+.btn-planes .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+}
+   
+.btn-planes:hover .icon svg {
+    transform: translateX(0.1em);
+}
+   
+.btn-planes:active .icon {
+    transform: scale(0.95);
+}
+
+
+.partner-companies {
+    height: 90vh;
+}
+
+.partner-companies h2 {
+    margin-left: 40px;
+    font-size: 35px;
+    padding: 50px 20px 0px 0px;
+    color: #291528;
+}
+
+.container-companies {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companies {
+    display: flex;
+    gap: 10px;
+}
+
+.card-companies {
+    width: 300px;
+    height: 115px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #291528;
+}
+
+.card-companies img {
+    height: 100px;
+    width: 150px;
+}
+
+.txt {
+    display: flex;
+    gap: 200px;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+
+.txt h2 {
+    color: #9E829C;
+}
+
+.txt .txt-companies {
+    margin-top: 50px;
+}
+
