@@ -212,12 +212,10 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.titleValues{
-    font-weight: 900;
-    font-size: 89px;
-    line-height: 90px;  
+.titlesValues{
+    font-size: 400%;
     text-align: justify;
-    padding: 8%;
+    padding: 5%;
 }
 .indicationText{
     text-align: center;
@@ -227,11 +225,11 @@ body{
     font-weight: 300;
     font-size: 40px;
     line-height: 54px;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #9E829C; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid #9E829C; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -244,4 +242,11 @@ body{
     from, to { border-color: transparent }
     50% { border-color: #9E829C; }
 }
-
+.valuesHover {
+    display: none;
+    font-size: 100%;
+    padding: 5%;
+}
+a:hover + .valuesHover {
+    display: block;
+}
