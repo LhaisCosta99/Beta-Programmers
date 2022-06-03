@@ -100,14 +100,12 @@ body{
 .talkToUs {
     max-width: 20%;
     margin-left: 39%;
-    background-color: #291528;
+    background: #291528;
     color: #F0EFF4;
     position: relative;
     padding: 1em 1.8em;
     outline: none;
-    border: 1px solid #303030;
-    background: #212121;
-    color: #ae00ff;
+    border: 1px solid #291528;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
@@ -194,13 +192,14 @@ body{
     padding: 10%;
 }
 .avaliationCard{
-    background-color: #F0EFF4;
-    color: #291528;
+    background-color: #3A3E3B;
+    color: #F0EFF4;
     display: inline-block;
     min-width: 40%;
     box-shadow: 0 1px 25px rgba(0,0,0,0.2);
     padding: 3%;
- 
+    border-radius: 16px;
+    margin: 5px;
 }
 .avaliationName{
     display: inline-block;
@@ -215,4 +214,15 @@ body{
 }
 .description{
     text-align: center;
+}
+.titleAvaliation{
+    text-align: center;
+    color:#291528;
+    padding: 2%;
+}
+.avaliation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
