@@ -11,8 +11,6 @@ body{
 }
 .missionKid2{
     color: #291528;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;  
@@ -28,12 +26,6 @@ body{
     width: 60%;
     background-color: #291528;
     color: #F0EFF4;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 55px;
-    text-align: center;
 }
 .titlePage{
     text-align: center;
@@ -62,12 +54,14 @@ body{
 .rules2{
     display: flex;
     text-align:start;
-    padding: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 .rules1{
     display: flex;
     text-align: start;
-    padding: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 .rules{
     display: flex;
@@ -183,19 +177,11 @@ body{
     transition: none;
     transition-delay: none;
 }
-.indicationText{
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 97px;
-    background-color: #291528;
-    color: #F0EFF4;
-    padding: 10%;
-}
 .avaliationCard{
     background-color: #3A3E3B;
     color: #F0EFF4;
     display: inline-block;
-    min-width: 40%;
+    max-width: 40%;
     box-shadow: 0 1px 25px rgba(0,0,0,0.2);
     padding: 3%;
     border-radius: 16px;
@@ -226,3 +212,36 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.titleValues{
+    font-weight: 900;
+    font-size: 89px;
+    line-height: 90px;  
+    text-align: justify;
+    padding: 8%;
+}
+.indicationText{
+    text-align: center;
+    background-color: #291528;
+    color: #F0EFF4;
+    padding: 5%;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #9E829C; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9E829C; }
+}
+
