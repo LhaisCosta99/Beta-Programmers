@@ -32,11 +32,8 @@ body {
   padding: 20px 0px;
 }
 
-<<<<<<< HEAD
 .header-embaixadoras h3 {
 }
-=======
->>>>>>> c0a6ba19233b6d03356a2f37050e6cc776de5c59
 
 .meet-we {
     display: flex;
@@ -146,7 +143,6 @@ body {
     transform: scale(1.1);
    }
 
-<<<<<<< HEAD
 
 
 
@@ -219,93 +215,3 @@ body {
   .card-enjoy-us:hover>div,.card-enjoy-us:hover>strong {
     opacity: 0;
   }
-=======
-/* Aplicando responsividade */
-
-@media(max-width:500px) {
-
-.header-embaixadoras h1 {
-    font-size: 30px;
-   
-}
-
-.header-embaixadoras p {
-  font-size: 20px;
-  width: 70%;
-  text-align: justify;
-  padding: 20px 0px;
-}
-
-.meet-we {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #291528;
-}
-.container-embaixadoras {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 20px;
-  padding: 5px 0px;
-  height: 100%;
-}
-
-.card {
-  width: 250px;
-  height: 290px;
-  background: #f5f5f5;
-  padding: 2rem 1.5rem;
-  transition: box-shadow .3s ease, transform .2s ease;
- }
- 
- 
- /*Image*/
- .card-avatar {
-  --size: 100px;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  transition: transform .2s ease;
-  margin-bottom: 1rem;
- }
- 
-}
-
-@media(max-width:400px) {
-
-  .header-embaixadoras h1 {
-      font-size: 20px;
-     
-  }
-  
-  .header-embaixadoras p {
-    font-size: 16px;
-    width: 70%;
-    text-align: justify;
-    padding: 20px 0px;
-  }
-  
-  .meet-we {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      color: #291528;
-}
-
-.meet-we h3 {
-  font-size: 20px;
-}
-
-.meet-we img {
-  width: 50px;
-  height: 50px;
-}
-
-}
-
->>>>>>> c0a6ba19233b6d03356a2f37050e6cc776de5c59
