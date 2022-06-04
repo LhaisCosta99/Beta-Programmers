@@ -284,13 +284,6 @@ a:hover + .valuesHover {
 .titlesValues, .avaliationName{
     font-family: "Courier New", monospace;
 }
-@media(max-width:600px){
-    img{
-      
-    }
-    #principal{
-    }
-}
 @media(max-width:800px){
     .firstPhoto{
         width: 400px;
