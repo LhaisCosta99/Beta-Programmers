@@ -145,15 +145,6 @@ body {
 
 @media(max-width:500px) {
 
-.header-embaixadoras {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    color: #291528;
-}
-
 .header-embaixadoras h1 {
     font-size: 30px;
    
@@ -237,3 +228,4 @@ body {
 }
 
 }
+
