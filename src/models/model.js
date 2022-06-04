@@ -6,7 +6,7 @@ class Cadastro {
         this.cep = cep
         this.rua = rua
         this.bairro = bairro
-        this.ciudade = cidade
+        this.cidade = cidade
         this.estado = estado
         this.pais = pais
     }
