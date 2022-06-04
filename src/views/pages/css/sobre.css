@@ -1,5 +1,6 @@
 body{
     background-color: #F0EFF4;
+    min-width: fit-content;
 }
 .mission{
     display: flex;
@@ -15,9 +16,6 @@ body{
     line-height: 29px;  
     text-align: justify;
     padding: 8%;
-}
-.missionKid2 h1{
-    font-size: 250%;
 }
 .values{
     display: flex;
@@ -285,4 +283,44 @@ a:hover + .valuesHover {
 }
 .titlesValues, .avaliationName{
     font-family: "Courier New", monospace;
+}
+@media(max-width:600px){
+    img{
+      
+    }
+    #principal{
+    }
+}
+@media(max-width:800px){
+    .firstPhoto{
+        width: 400px;
+        min-height: 717px;
+    }
+    .missionKid2{
+        padding: 5%;
+    }
+    .missionKid2 h1{
+        font-size: 50px;
+    }
+    .valuesKid2{
+        min-width: 45%;
+    }
+    .valuesKid{
+        width: 100%;
+    }
+    .values{
+        font-size: 11px;
+    }
+    .indicationText{
+        white-space: break-spaces;
+    }
+}
+@media(max-width: 1100px){
+    .indicationText{
+        white-space: break-spaces;
+    }
+    .firstPhoto{
+        min-height: 900px;
+        max-width: 600px;    
+}
 }
