@@ -13,3 +13,19 @@ class Cadastro {
         this.botao = botao
     }
 }
+
+class Login{
+    constructor(email,senha,botao){
+        this.email = email
+        this.senha = senha 
+        this.botao = botao
+    }
+}
+
+class RecuperacaoDeSenha{
+    constructor(email,botao,mensagem){
+        this.email = email
+        this.botao = botao
+        this.mensagem = mensagem
+    }
+}
