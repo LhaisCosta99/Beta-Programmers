@@ -11,6 +11,7 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../../models/validacao.js" defer></script>
     <script src="../../models/apiModel.js" defer></script>
     <script src="../../models/model.js" defer></script>
     <script src="./js/cadastro.js" defer></script>
@@ -34,7 +35,7 @@
         </div>
         <div>
             <label for="nascimento">Nascimento:</label>
-            <input id="nascimento" type="text">
+            <input id="nascimento" type="date" max="2004-12-31">
         </div>
         <div>
             <label for="cep">Cep:</label>
