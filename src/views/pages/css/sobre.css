@@ -1,0 +1,319 @@
+body{
+    background-color: #F0EFF4;
+    min-width: fit-content;
+}
+.mission{
+    display: flex;
+    background-color: #9E829C;
+}
+.missionKid{
+    display: flex;
+    flex-direction: column;
+}
+.missionKid2{
+    color: #291528;
+    font-size: 24px;
+    line-height: 29px;  
+    text-align: justify;
+    padding: 8%;
+}
+.values{
+    display: flex;
+}
+.valuesKid{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    background-color: #291528;
+    color: #F0EFF4;
+}
+.titlePage{
+    text-align: center;
+    color: #291528;
+    padding: 2%;
+    font-size: 350%; 
+
+}.firstPhoto{
+    min-width: 105%;
+    max-height: 100%;
+}
+.secPhoto{
+    width: 100%;
+    height: 100%;
+}
+.rulesTitle{
+    text-align: center;
+    color: #291528;
+    padding: 2%;
+    font-size: 300%; 
+}
+.finalTextRules{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.rules2{
+    display: flex;
+    text-align:start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.rules1{
+    display: flex;
+    text-align: start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+}
+.star{
+    display: inline-block;
+    max-width: 7%;
+}
+.titleRules{
+    display: inline-block;
+}
+.rules-item2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.rules-item4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.star1{
+    max-width: 5%;
+}
+.rules-item1{
+    margin-left: 15%;
+}
+.rules-item3{
+    margin-left: 15%;
+}
+.talkToUs {
+    max-width: 20%;
+    margin-left: 39%;
+    background: #291528;
+    color: #F0EFF4;
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #291528;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}   
+.talkToUs:hover {
+    box-shadow: 0 0 10px #291528, 0 0 25px #9E829C, 0 0 50px #291528;
+    transition-delay: 0.6s;
+} 
+.talkToUs span {
+    position: absolute;
+}  
+.talkToUs span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #9E829C);
+}  
+.talkToUs:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+}  
+.talkToUs span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #9E829C);
+}
+.talkToUs:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+}
+.talkToUs span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #9E829C);
+}
+.talkToUs:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+}
+.talkToUs span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #9E829C);
+}
+.talkToUs:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+}
+.talkToUs:active {
+    background: #291528;
+    background: linear-gradient(to top right, #291528, #9E829C);
+    color: #F0EFF4;
+    box-shadow: 0 0 8px #291528, 0 0 8px #3A3E3B, 0 0 8px #9E829C;
+    transition: 0.1s;
+}
+.talkToUs:active span:nth-child(1) 
+   span:nth-child(2) 
+   span:nth-child(2) 
+   span:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+}
+.avaliationCard{
+    background-color: #3A3E3B;
+    color: #F0EFF4;
+    display: inline-block;
+    max-width: 40%;
+    box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+    padding: 3%;
+    border-radius: 16px;
+    margin: 5px;
+}
+.avaliationName{
+    display: inline-block;
+    margin-left: 10%;
+
+}
+.avaliationPhoto{
+    border-radius: 50%;
+    max-width: 91px;
+    max-height: 87px;
+    float: left;
+    box-shadow: 0 10px 25px #291528;
+
+}
+.description{
+    text-align: center;
+}
+.titleAvaliation{
+    text-align: center;
+    color:#291528;
+    padding: 2%;
+    font-size: 250%; 
+}
+.avaliation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titlesValues{
+    font-size: 400%;
+    text-align: justify;
+    padding: 5%;
+    margin-left: 3%;
+}
+.indication{
+    background-color: #291528;
+    color: #F0EFF4;
+    padding: 5%;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    display: inline-block;
+    min-width: 90%;
+    min-height: 100px;
+}
+.indicationText{ 
+    width: 0 auto;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: .15em solid #9E829C; 
+    margin: 0 auto; 
+    font-size: 5 rem;
+    animation: typing 4s steps(50, end) forwards;
+}
+.indicationText2{ 
+    width: 0 ;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: .15em solid #9E829C; 
+    margin: 0 auto; 
+    font-size: 5 rem;
+    animation: typing 3s steps(50, end) forwards;
+      animation-delay: 3.5s;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9E829C; }
+}
+.valuesHover {
+    display: none;
+    font-size: 100%;
+    padding: 5%;
+}
+a:hover + .valuesHover {
+    display: block;
+}
+.checked {
+    color: orange;
+}
+.valuesKid2{
+    display: flex;
+    min-width: 54%;
+}
+.finalTextRules, .indicationText, .indicationText2, .rulesTitle, .titlePage, .valuesHover, .titleAvaliation{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.titlesValues, .avaliationName{
+    font-family: "Courier New", monospace;
+}
+@media(max-width:800px){
+    .firstPhoto{
+        width: 400px;
+        min-height: 717px;
+    }
+    .missionKid2{
+        padding: 5%;
+    }
+    .missionKid2 h1{
+        font-size: 50px;
+    }
+    .valuesKid2{
+        min-width: 45%;
+    }
+    .valuesKid{
+        width: 100%;
+    }
+    .values{
+        font-size: 11px;
+    }
+    .indicationText{
+        white-space: break-spaces;
+    }
+}
+@media(max-width: 1100px){
+    .indicationText{
+        white-space: break-spaces;
+    }
+    .firstPhoto{
+        min-height: 900px;
+        max-width: 600px;    
+}
+}
