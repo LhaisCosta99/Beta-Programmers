@@ -1,7 +1,7 @@
-cadastro.cep.addEventListener('blur',(event)=>{
+cadastro.cep.addEventListener('blur',()=>{
     //event.preventDefault()
     try {
-        if(Validacao.validaCep(cadastro.cep.velue)){
+        if(Validacao.validaCep(cadastro.cep.value)){
             requisicaoParaApi(cadastro.cep.value)
         }
         else{
@@ -31,4 +31,15 @@ function requisicaoParaApi(cep){
             }
         }
     })
+}
+
+cadastro.botao.addEventListener('click',(event)=>{
+    event.preventDefault()
+    verificaCampos(cadastro)
+})
+
+function verificaCampos(cadastro){
+    if (Validacao.validacoes(cadastro)){
+        location.replace('../../../index.html')
+    }
 }
