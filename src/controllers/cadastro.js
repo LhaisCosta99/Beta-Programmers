@@ -1,7 +1,12 @@
 cadastro.cep.addEventListener('blur',(event)=>{
     //event.preventDefault()
     try {
-        requisicaoParaApi(cadastro.cep.value)
+        if(Validacao.validaCep(cadastro.cep.velue)){
+            requisicaoParaApi(cadastro.cep.value)
+        }
+        else{
+            throw new Error("CEP inválido!")
+        }
     } catch (error) {
         console.log(error)
     }
