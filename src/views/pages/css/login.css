@@ -96,12 +96,6 @@
     }
 }
 
-@media(max-width:980px) {
-    .container-login img {
-        width: 280px;
-    }
-}
-
 @media(max-width:780px) {
     .container-login img {
       width: 380px

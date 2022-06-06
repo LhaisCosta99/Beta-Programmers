@@ -83,14 +83,36 @@
 .container-form-login .form .btn-form {
     width: 150px;
     height: 50px;
-    padding: 5px;
     margin-top: 10px;
-    border-radius: 20px;
-    border: none;
     font-size: 20px;
-    background-color: #291528;
-    color: #F0EFF4;
 }
+
+@media(max-width:840px) {
+  .container-img img {
+    width: 300px;
+    }
+}
+
+@media(max-width:700px) {
+  .container-form-login form .recuperacao label {
+    margin: 0;
+  }
+}
+
+@media(max-width:750px) {
+    .container-img img {
+      display: none;
+   }
+}
+
+@media(max-width:380px) {
+  .container-form-login form .recuperacao input {
+    width: 310px;
+  }
+    
+}
+
+
 
 
 
