@@ -1,0 +1,86 @@
+@import '../elements/css/header.css';
+@import '../elements/css/footer.css';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-login {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    gap: 180px;
+}
+
+.container-login .login-h2 h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.container-login .login-h2::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #291528;
+}
+
+.container-login img {
+    height: 600px;
+    width: 500px;
+}
+
+.container-input-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-input-login .login-input input{
+  display: block;
+  width: 400px;
+  height: 50px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #291528;
+  font-size: 20px;
+}
+
+.container-input-login .login-input .input:nth-of-type(1) {
+   margin-bottom: 20px;
+}
+
+.container-input-login .login-input .input::placeholder{
+    text-align: center;
+}
+
+.container-input-login .login-input a {
+    margin-left: 270px;
+    margin-top: 5px;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.container-input-login .login-btn button {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: #291528;
+    color: #F0EFF4;
+}
