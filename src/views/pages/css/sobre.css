@@ -1,3 +1,5 @@
+@import "../elements/css/footer.css";
+
 body{
     background-color: #F0EFF4;
     min-width: fit-content;
@@ -17,6 +19,13 @@ body{
     text-align: justify;
     padding: 8%;
 }
+.missionKid2 p{
+    margin-top: 15%;
+}
+.missionKid2 h1{
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
 .values{
     display: flex;
 }
@@ -31,7 +40,7 @@ body{
     text-align: center;
     color: #291528;
     padding: 2%;
-    font-size: 350%; 
+    font-size: 300%; 
 
 }.firstPhoto{
     min-width: 105%;
@@ -45,7 +54,7 @@ body{
     text-align: center;
     color: #291528;
     padding: 2%;
-    font-size: 300%; 
+    font-size: 250%; 
 }
 .finalTextRules{
     font-weight: 400;
@@ -185,13 +194,14 @@ body{
     display: inline-block;
     max-width: 40%;
     box-shadow: 0 1px 25px rgba(0,0,0,0.2);
-    padding: 3%;
+    padding: 2%;
     border-radius: 16px;
     margin: 5px;
 }
 .avaliationName{
     display: inline-block;
     margin-left: 10%;
+    font-size: xx-large;
 
 }
 .avaliationPhoto{
@@ -202,8 +212,14 @@ body{
     box-shadow: 0 10px 25px #291528;
 
 }
+.fa{
+    float: right;
+}
 .description{
     text-align: center;
+    font-size: medium;
+    padding: 6%;
+    margin-left: 5%;
 }
 .titleAvaliation{
     text-align: center;
@@ -217,11 +233,25 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.titleValues{
+    font-size: 400%;
+    text-align: justify;
+    padding: 5%;
+    margin-left: 3%;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Courier New", monospace;
+}
 .titlesValues{
     font-size: 400%;
     text-align: justify;
     padding: 5%;
     margin-left: 3%;
+    text-decoration: none;
+    color: inherit;
+}
+.titlesValues:active, .titlesValues:hover, .titlesValues:focus{
+    color: #9E829C;
 }
 .indication{
     background-color: #291528;
@@ -231,7 +261,7 @@ body{
     font-size: 40px;
     line-height: 54px;
     display: inline-block;
-    min-width: 90%;
+    min-width: 100%;
     min-height: 100px;
 }
 .indicationText{ 
@@ -307,6 +337,9 @@ a:hover + .valuesHover {
     .indicationText{
         white-space: break-spaces;
     }
+    .indication{
+        max-width: 100%;
+    }
 }
 @media(max-width: 1100px){
     .indicationText{
@@ -316,4 +349,7 @@ a:hover + .valuesHover {
         min-height: 900px;
         max-width: 600px;    
 }
+}
+.rules p{
+    text-align: justify;
 }
