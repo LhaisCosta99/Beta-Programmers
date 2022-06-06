@@ -1,3 +1,6 @@
+@import 'media-home.css';
+@import '../elements/css/header.css';
+@import '../elements/css/footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Chakra+Petch:wght@300;400;500;600;700&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=PT+Sans&family=Share+Tech+Mono&display=swap');
 
 * {
@@ -38,6 +41,7 @@ img {
     align-items: center;
     flex-direction: column;
 }
+
 .comunity-title {
     display: flex;
     gap: 50px;
@@ -132,7 +136,6 @@ img {
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.1em #7b52b9;
     right: 0.3em;
     transition: all 0.3s;
 }
@@ -208,5 +211,6 @@ img {
 
 .txt .txt-companies {
     margin-top: 50px;
+    display: none;
 }
 

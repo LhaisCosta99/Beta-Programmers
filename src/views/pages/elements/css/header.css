@@ -1,11 +1,3 @@
-/* body {
-  font-family: 'Roboto', sans-serif;
-} */
-
-/* header {
-  max-width: 1280px;
-  margin: 0 auto;
-} */
 
 /* Header */
 .header {
@@ -55,6 +47,10 @@
 }
 
 .nav-link:hover {
+  color: #9E829C;
+}
+
+.nav-link:focus {
   color: #9E829C;
 }
 
