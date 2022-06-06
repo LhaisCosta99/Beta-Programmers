@@ -35,11 +35,5 @@ function requisicaoParaApi(cep){
 
 cadastro.botao.addEventListener('click',(event)=>{
     event.preventDefault()
-    verificaCampos(cadastro)
+    Validacao.verificaCampos(cadastro)
 })
-
-function verificaCampos(cadastro){
-    if (Validacao.validacoes(cadastro)){
-        location.replace('../../../index.html')
-    }
-}
