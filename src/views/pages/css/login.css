@@ -14,15 +14,13 @@
 .main-login {
   height: 600px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .container-login {
-    height: 600px;
     width: 100%;
     display: flex;
-    gap: 180px;
+    gap: 200px;
 }
 
 .container-login .login-h2 h2 {
@@ -60,30 +58,85 @@
 }
 
 .container-input-login .login-input .input:nth-of-type(1) {
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container-input-login .login-input .input::placeholder{
-    text-align: center;
+  text-align: center;
 }
 
 .container-input-login .login-input a {
-    margin-left: 270px;
-    margin-top: 5px;
-    display: block;
-    font-size: 18px;
-    text-decoration: none;
-    color: lightseagreen;
+  margin: 10px 0 0 250px;
+  font-size: 18px;
+  text-decoration: none;
+  color: lightseagreen;
 }
 
 .container-input-login .login-btn button {
-    width: 150px;
-    height: 50px;
-    padding: 5px;
-    border-radius: 20px;
-    margin-top: 20px;
-    border: none;
-    font-size: 20px;
-    background-color: #291528;
-    color: #F0EFF4;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: #291528;
+  color: #F0EFF4;
+}
+
+@media(max-width:1024px) {
+  .container-login {
+    gap: 80px;
+    }
+}
+
+@media(max-width:980px) {
+   .container-login img {
+        width: 380px
+    }
+}
+
+@media(max-width:980px) {
+    .container-login img {
+        width: 280px;
+    }
+}
+
+@media(max-width:780px) {
+    .container-login img {
+      width: 380px
+    }
+
+   .container-input-login .login-input input {
+     width: 300px;
+    }
+
+    .login-input {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .esqueci-senha {
+      display: block;
+      text-align: center;
+      align-self: center;
+      justify-self: center;
+    } 
+
+    .container-input-login .login-input a {
+      margin:10px 0;
+    }
+}
+
+@media(max-width:750px) {
+    .container-login {
+      justify-content: center;
+      gap: 0;
+    }
+
+    .container-login img {
+        display: none;
+        }
 }
