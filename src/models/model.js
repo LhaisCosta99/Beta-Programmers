@@ -26,6 +26,5 @@ class RecuperacaoDeSenha{
     constructor(email,botao,mensagem){
         this.email = email
         this.botao = botao
-        this.mensagem = mensagem
     }
 }
