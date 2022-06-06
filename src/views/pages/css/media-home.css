@@ -1,0 +1,110 @@
+ /* Adicionando responsividade na home */
+
+@media(max-width:500px) {
+
+    .comunity-title {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 80px 0px;
+    }
+    
+    .comunity-title h1 {
+        color: #291528;
+        font-size: 25px;
+        width: 60%;
+    }
+    
+    .comunity-title img {
+        width: 20px;
+        height: 20px;
+    }
+    .comunity-reasons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    
+    .comunity-reasons-1 .comunity-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    .comunity-reasons-1 .comunity-card p {
+      width: 70%;
+      margin-top: 20px;
+      text-align: justify;
+    }
+    
+    .comunity-reasons-1 .comunity-card h2 {
+        padding: 20px 10px 0px 0px;
+        font-size: 18px;
+    }
+
+    .comunity-reasons-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .comunity-reasons-down .comunity-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .partner-companies {
+        margin-bottom: 500px;
+    }
+
+    .partner-companies h2 {
+        margin-left: 40px;
+        font-size: 35px;
+        padding: 50px 20px 0px 0px;
+        color: #291528;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .container-companies {
+        margin-top: 50px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .companies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 80%;
+    }
+    
+    .card-companies {
+        width: 300px;
+        height: 115px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #291528;
+    }
+    .txt {
+        display: flex;
+        gap: 200px;
+        font-family: 'Kalam', cursive;
+        font-weight: 700;
+    }
+    
+    
+}
