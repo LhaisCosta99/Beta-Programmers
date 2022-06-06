@@ -15,8 +15,13 @@
   color: #ffffff;
 }
 
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
 .btn-primary {
-  width: 10rem;
+  width: 10em;
   background-color: #291528;
   border: none;
   transition: all .3s ease-in-out;
@@ -58,31 +63,42 @@
   background-color: #9E829C;
 }
 
-@media(max-width: 702px) {
+@media(max-width: 810px) {
   .btn-primary {
     width: 10rem;
-    background-color: #291528;
-    border: none;
-    transition: all .3s ease-in-out;
     font-size: 14px;
   }
 }
 
-@media(max-width: 550px) {
+@media(max-width: 768px) {
   .btn-primary {
-    width: 10rem;
+    width: 8rem;
     background-color: #291528;
     border: none;
     transition: all .3s ease-in-out;
     font-size: 12px;
   }
 }
-@media(max-width: 436px) {
+
+@media(max-width: 595px) {
   .btn-primary {
-    width: 10rem;
+    width: 8rem;
     background-color: #291528;
     border: none;
     transition: all .3s ease-in-out;
     font-size: 10px;
   }
+}
+@media(max-width: 430px) {
+  .button-container {
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+  }
+  .btn-primary {
+    width: 10em;
+    height: 40px;
+    font-size: 10px;
+  }
+
 }

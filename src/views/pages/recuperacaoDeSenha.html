@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="../pages/css/recuperacaoDeSenha.css">
     <title>Recuperação de Senha</title>
 </head>
-
-
 <body>
     <header class="header">
         <div class="container-fluid">
@@ -29,11 +27,13 @@
                 Beta Programmers
             </a>
         </div>
-        <button type="button" class="btn btn-primary">Cadastre-se</button>
-        <button type="button" class="btn btn-primary">Login</button>
+        <div class="button-container">
+            <button type="button" class="btn btn-primary">Cadastre-se</button>
+            <button type="button" class="btn btn-primary">Login</button>
+        </div>
     </header>
     <nav class="navbar navbar-expand-sm p-0">
-        <div class="container-fluid nav-bg justify-content-end">
+        <div class="container-fluid nav-bg justify-content-center">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,16 +60,33 @@
             </div>
         </div>
     </nav>
-    <div class="recuperacaoDeSenha-container">
-        <form action="">
+
+<section class="container-login">
+    <div class="container-img">
+      <img src="assets/menina-login.png" alt="">
+    </div>
+
+    <div class="container-form-login">
+        <div class="title-form">
+        <h2>Redefinir Senha</h2>
+        <span></span>
+        </div>
+        <div class="container-form">
+             <form action="" class="form">
+            <p>Você receberá uma mensagem de confirmação por email
+                para recuperar sua senha</p>
             <div class="recuperacao">
                 <label for="email">Email:</label>
                 <input id="email" type="text">
             </div>
-            <div>
-                <button class="btn btn-primary" id="botao">Enviar</button>
+            <div class="btn-div">
+                <button class="btn btn-primary btn-form" id="botao">Enviar</button>
             </div>
         </form>
+        </div>
+    </div>
+</section>
+   
         <footer class="footer">
             <div class="left">
                 <div class="phrase-container">
