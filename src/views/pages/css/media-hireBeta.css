@@ -1,0 +1,179 @@
+@media(max-width:500px) {
+    .container-hire {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 600px;
+    }
+    
+    .container-hire .container-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0EFF4;
+        width: 100%;
+        height: 500px;
+        gap: 50px;
+        padding: 0px 40px;
+    }
+    .container-hire .container-1 h2 {
+        font-size: 20px;
+        color: #9E829C;
+        width: 90%;
+    }
+    
+    .container-hire .container-1 p {
+        font-size: 14px;
+        color: #9E829C;
+        width: 100%;
+    }
+    .container-hire .container-2 {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .container-hire .container-2 .number-hire {
+        font-size: 20px;
+        color: #291528;
+        font-size: bold;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .container-hire .container-2 p {
+        font-size: 14px;
+        width: 100%;
+    } 
+    .container-hire .container-2 .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-hire .container-2 .event-p {
+        margin-left:200px;
+    }
+    
+    .container-hire .container-2 .event-p p {
+        font-size: 12px;
+    }
+
+    .container-hire-2 {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-hire-2 .hire-2-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-hire-2 .hire-2-text p {
+        font-size: 14px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .container-hire-3 {
+        height: 920px;
+    }
+    
+    .container-hire-3 .why-woman {
+        height: 780px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px 10px;
+    }
+    
+    .container-hire-3 .why-woman .container-why-woman h2 {
+        font-size: 20px;
+        width: 30%;
+        color: #291528;
+        margin-bottom: 25px;
+    }
+    
+    .container-hire-3 .why-woman .container-why-woman {
+      height: 600px;
+      width: 800px;
+      padding: 10px;
+    }
+    
+    .container-hire-3 .why-woman .container-why-woman p {
+        width: 40%;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .container-hire-3 .why-woman {
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px 10px;
+    }
+    
+     .cards-hire-3 {
+         width: 200px;
+         margin-bottom: 300px;
+     }
+
+     .cards-hire-3 .card-hire p {
+         font-size: 8px;
+         font-weight: bold;
+     }
+
+     .be-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .be-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .be-part .be-part-center {
+        display: flex;
+        gap: 50px;
+        padding: 0px 50px;
+    }
+
+    .be-part div.phrase h3 {
+        width:100%;
+        font-size: 16px;
+        font-family: 'Kalam', cursive;
+        font-weight: 500;
+        color: #9E829C;
+    }
+
+    .be-part div.btn-be-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .be-part div.btn-be-part img {
+        width: 80px;
+        display: none;
+     }
+     
+     .be-part div.btn-be-part button {
+         width: 250px;
+         padding: 20px;
+         font-size: 16px;
+     }
+}
