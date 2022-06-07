@@ -1,5 +1,5 @@
 @import '../elements/css/header.css';
-
+@import '../elements/css/footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Chakra+Petch:wght@300;400;500;600;700&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Share+Tech+Mono&display=swap');
 
 *{
@@ -19,7 +19,6 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 700px;
-    /* background-color: lightpink; */
 }
 
 .container-hire .container-1 {
@@ -46,10 +45,10 @@ body {
 }
 
 .container-hire .container-2 {
-    /* background-color: khaki; */
     height: 300px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center; 
     align-items: center;

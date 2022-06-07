@@ -18,6 +18,10 @@ img {
     height: 580px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .carousel-caption .h2-1 {
     text-transform: uppercase;
     font-family: 'Kalam', cursive;
