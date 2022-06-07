@@ -41,6 +41,7 @@ body{
     color: #291528;
     padding: 2%;
     font-size: 300%; 
+    font-weight: 700;
 
 }.firstPhoto{
     min-width: 105%;
@@ -318,6 +319,7 @@ a:hover + .valuesHover {
     .firstPhoto{
         width: 400px;
         min-height: 717px;
+        display:none;
     }
     .missionKid2{
         padding: 5%;
@@ -346,8 +348,8 @@ a:hover + .valuesHover {
         white-space: break-spaces;
     }
     .firstPhoto{
-        min-height: 900px;
-        max-width: 600px;    
+        min-height: 800px;
+        max-width: 450px;    
 }
 }
 .rules p{
