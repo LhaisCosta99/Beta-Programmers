@@ -1,5 +1,6 @@
 body {
   background-color: #F0EFF4;
+  font-family: "Poppins", sans-serif;
 }
 
 .planos-title {
@@ -45,11 +46,19 @@ body {
 .list-plans {
   list-style: none;
   text-align: left;
-  text-decoration: underline;
 }
 
 .items-plans {
   font-size: 20px;
+}
+ 
+.free {
+  margin-top: 179px;
+}
+
+.btn-a a {
+  color: white;
+  text-decoration: none;
 }
 
 
