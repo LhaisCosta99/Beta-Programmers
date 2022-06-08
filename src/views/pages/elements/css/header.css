@@ -27,8 +27,16 @@
   transition: all .3s ease-in-out;
 }
 
+.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+
 .btn-primary:hover {
   background-color: #F0EFF4;
+}
+
+.btn-primary a:hover {
   color: #000000;
 }
 
