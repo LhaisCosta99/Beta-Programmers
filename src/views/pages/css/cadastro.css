@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #fffffF;
+}
+
 .cadastro-container{
     background-color: #F0EFF4;
     display: flex;

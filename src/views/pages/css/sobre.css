@@ -5,6 +5,12 @@ body{
     background-color: #F0EFF4;
     min-width: fit-content;
 }
+
+a {
+    text-decoration: none;
+    color: #fffffF;
+}
+
 .mission{
     display: flex;
     background-color: #9E829C;
