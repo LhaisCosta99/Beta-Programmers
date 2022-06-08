@@ -11,6 +11,11 @@ body {
   background-color: #f0eff4;
 }
 
+a {
+  text-decoration: none;
+  color: #fffffF;
+}
+
 .header-embaixadoras {
   display: flex;
   flex-direction: column;

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16"  href="../pages/assets/favicon-beta.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -13,18 +14,24 @@
     <link rel="stylesheet" href="../pages/elements/css/header.css">
   <link rel="stylesheet" href="../pages/elements/css/footer.css">
   <link rel="stylesheet" href="../pages/elements/css/planos.css">
-  <title>Home</title>
+  <title>Planos</title>
 </head>
 <body>
   <!-- Header -->
   <header class="header">
     <div class="container-fluid">
       <a class="header-brand" href="#">
-        Beta Programmers
+        <img class="logo-header" src="./assets/logo-header.jpg" alt="">
       </a>
     </div>
-    <button type="button" class="btn btn-primary">Cadastre-se</button>
-    <button type="button" class="btn btn-primary">Login</button>
+    <div class="button-container">
+      <button type="button" class="btn btn-primary btn-a">
+        <a href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/cadastro.html">Cadastre-se</a>
+      </button>
+      <button type="button" class="btn btn-primary btn-a">
+        <a href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/login.html">Login</a>
+      </button>
+    </div>
   </header>
   <nav class="navbar navbar-expand-sm p-0">
     <div class="container-fluid nav-bg justify-content-center">
@@ -33,40 +40,39 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  mb-2 mb-lg-0">
+        <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Sobre</a>
+            <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/sobre.html">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Embaixadoras</a>
+            <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/embaixadoras.html">Embaixadoras</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Planos</a>
+            <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/planos.html">Planos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Hire Her</a>
+            <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/hireBeta.html">Hire a Beta</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- Planos -->
+  <h1 class="planos-title">Planos</h1>
+  <p class="planos-text">Junte-se à nossa comunidade</p>
   <div class="card-container">
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">Free</h5>
       <p class="card-text">R$00.00</p>
       <ul class="list-plans">
-        <li class="items-plans">Mentorias exclusivas</li>
-        <li class="items-plans">Preparatórios para entrevistas</li>
-        <li class="items-plans">Aulas de programação</li>
+        <li class="items-plans">Mentorias coletivas</li>
         <li class="items-plans">Acesso a comunidade</li>
-        <li class="items-plans">Acesso ao banco de vagas das empresas parceiras</li>
       </ul>
-      <a href="#" class="btn btn-primary btn-plans">Saiba mais</a>
+      <a href="#" class="btn btn-primary btn-plans free btn-a">Saiba mais</a>
     </div>
   </div>
 
@@ -81,7 +87,7 @@
           <li class="items-plans">Acesso a comunidade</li>
           <li class="items-plans">Acesso ao banco de vagas das empresas parceiras</li>
         </ul>
-        <a href="#" class="btn btn-primary btn-plans">Saiba mais</a>
+        <a href="#" class="btn btn-primary btn-plans btn-a">Saiba mais</a>
       </div>
     </div>
 
@@ -90,13 +96,13 @@
         <h5 class="card-title">With friends</h5>
         <p class="card-text">R$24.99</p>
         <ul class="list-plans">
-          <li class="items-plans">Mentorias exclusivas</li>
+          <li class="items-plans">Mentorias em dupla</li>
           <li class="items-plans">Preparatórios para entrevistas</li>
           <li class="items-plans">Aulas de programação</li>
           <li class="items-plans">Acesso a comunidade</li>
           <li class="items-plans">Acesso ao banco de vagas das empresas parceiras</li>
         </ul>
-        <a href="#" class="btn btn-primary btn-plans">Saiba mais</a>
+        <a href="#" class="btn btn-primary btn- btn-a">Saiba mais</a>
       </div>
     </div>
   </div>
@@ -117,16 +123,16 @@
         <ul class="team">
           <li class="team-name">Equipe</li>
           <li class="team-name">
-            <a class="team-link" href="#">Ana</a>
+            <a class="team-link" href="https://github.com/anacrln">Ana</a>
           </li>
           <li class="team-name">
-            <a class="team-link" href="#">Lhaís</a>
+            <a class="team-link" href="https://github.com/LhaisCosta99">Lhaís</a>
           </li>
           <li class="team-name">
-            <a class="team-link" href="#">Viniele</a>
+            <a class="team-link" href="https://github.com/vinielelopes">Viniele</a>
           </li>
           <li class="team-name">
-            <a class="team-link" href="#">Shiellyn</a>
+            <a class="team-link" href="https://github.com/ShiellynFerr">Shiellyn</a>
           </li>
         </ul>
       </div>

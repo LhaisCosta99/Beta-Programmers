@@ -1,5 +1,17 @@
 body {
   background-color: #F0EFF4;
+  font-family: "Poppins", sans-serif;
+}
+
+.planos-title {
+  text-align: center;
+  font-weight: 700;
+  margin-top:15px ;
+}
+
+.planos-text {
+  text-align: center;
+  font-size: 18px;
 }
 
 .card-container {
@@ -34,11 +46,19 @@ body {
 .list-plans {
   list-style: none;
   text-align: left;
-  text-decoration: underline;
 }
 
 .items-plans {
   font-size: 20px;
+}
+ 
+.free {
+  margin-top: 179px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 

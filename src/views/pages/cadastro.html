@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="../pages/assets/favicon-beta.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" defer
@@ -26,14 +27,20 @@
     <header class="header">
         <div class="container-fluid">
             <a class="header-brand" href="#">
-               Beta Programmers
+              <img class="logo-header" src="./assets/logo-header.jpg" alt="">
             </a>
         </div>
-        <button type="button" class="btn btn-primary">Cadastre-se</button>
-        <button type="button" class="btn btn-primary">Login</button>
+        <div class="button-container">
+          <button type="button" class="btn btn-primary btn-a">
+            <a href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/cadastro.html">Cadastre-se</a>
+          </button>
+          <button type="button" class="btn btn-primary btn-a">
+            <a href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/login.html">Login</a>
+          </button>
+        </div>
       </header> 
       <nav class="navbar navbar-expand-sm p-0">
-        <div class="container-fluid nav-bg justify-content-end">
+        <div class="container-fluid nav-bg justify-content-center">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,19 +48,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                        <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Embaixadoras</a>
+                        <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/embaixadoras.html">Embaixadoras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Planos</a>
+                        <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/planos.html">Planos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Hire Her</a>
+                        <a class="nav-link" aria-current="page" href="https://lhaiscosta99.github.io/ProjetoFinalModulo2/src/views/pages/hireBeta.html">Hire a Beta</a>
                     </li>
                 </ul>
             </div>
@@ -95,12 +102,27 @@
                 <input class="input-cad"  id="cep" type="text">
             </div>
             <div class="cadastro">
+              <label for="cidade">Cidade:</label>
+              <br>
+              <input class="input-cad" id="cidade"></input>
+            </div>
+            <div class="cadastro">
+              <label for="estado">Estado:</label>
+              <br>
+              <input class="input-cad" id="estado" type="text">
+            </div>
+            <div class="cadastro">
+              <label for="pais">País:</label>
+              <br>
+              <input class="input-cad" id="pais" type="text">
+            </div>
+            <div class="cadastro">
                 <label for="rua">Rua:</label>
                 <br>
                 <input class="input-cad"  id="rua" type="text">
             </div>
             <div class="cadastro">
-                <label for="numero">Numero:</label>
+                <label for="numero">Número:</label>
                 <br>
                 <input class="input-cad"  id="numero" type="text">
             </div>
@@ -113,21 +135,6 @@
                 <label for="bairro">Bairro:</label>
                 <br>
                 <input class="input-cad"  id="bairro" type="text">
-            </div>
-            <div class="cadastro">
-                <label for="cidade">Cidade:</label>
-                <br>
-                <input class="input-cad"  id="cidade"></input> 
-            </div>
-            <div class="cadastro">
-                <label for="estado">Estado:</label>
-                <br>
-                <input class="input-cad"  id="estado" type="text">
-            </div>
-            <div class="cadastro">
-                <label for="pais">País:</label>
-                <br>
-                <input class="input-cad"  id="pais" type="text">
             </div>
             <div class="centralizar">
               <button class="btn btn-primary btn-cad" id="botao">Enviar</button>
@@ -151,16 +158,16 @@
             <ul class="team">
               <li class="team-name">Equipe</li>
               <li class="team-name">
-               <a class="team-link" href="#">Ana</a>
+                <a class="team-link" href="https://github.com/anacrln">Ana</a>
               </li>
               <li class="team-name">
-               <a class="team-link" href="#">Lhaís</a>
+                <a class="team-link" href="https://github.com/LhaisCosta99">Lhaís</a>
               </li>
               <li class="team-name">
-               <a class="team-link" href="#">Viniele</a>
+                <a class="team-link" href="https://github.com/vinielelopes">Viniele</a>
               </li>
               <li class="team-name">
-               <a class="team-link" href="#">Shiellyn</a>
+                <a class="team-link" href="https://github.com/ShiellynFerr">Shiellyn</a>
               </li>
             </ul>
           </div>
