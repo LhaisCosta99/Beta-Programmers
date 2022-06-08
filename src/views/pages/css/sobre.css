@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Chakra+Petch:wght@300;400;500;600;700&family=Itim&family=Kalam:wght@300;400;700&family=Lateef&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Share+Tech+Mono&display=swap");
 @import "../elements/css/footer.css";
 
 body{
@@ -27,6 +28,7 @@ a {
 }
 .missionKid2 p{
     margin-top: 15%;
+    font-family: "Poppins", sans-serif;
 }
 .missionKid2 h1{
     font-family: "Courier New", monospace;
@@ -41,6 +43,13 @@ a {
     width: 46%;
     background-color: #291528;
     color: #F0EFF4;
+}
+
+.valuesKid p {
+    font-family: "Poppins", sans-serif;
+}
+.valuesHover h4 {
+    font-family: "Poppins", sans-serif;
 }
 .titlePage{
     text-align: center;
@@ -81,6 +90,11 @@ a {
     margin-left: 5%;
     margin-top: 2%;
 }
+
+.rules1 .rules2 h4 p{
+    font-family: "Poppins", sans-serif;
+}
+
 .rules{
     display: flex;
     flex-direction: column;
@@ -205,6 +219,11 @@ a {
     border-radius: 16px;
     margin: 5px;
 }
+
+.avaliationCard h3 {
+    font-family: "Poppins", sans-serif;
+}
+
 .avaliationName{
     display: inline-block;
     margin-left: 10%;
