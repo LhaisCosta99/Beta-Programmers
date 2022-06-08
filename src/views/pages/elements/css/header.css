@@ -25,6 +25,11 @@
   background-color: #291528;
   border: none;
   transition: all .3s ease-in-out;
+  color: #ffffff;
+}
+
+a {
+  color: white;
 }
 
 .btn-a {
