@@ -45,10 +45,6 @@ cadastro;
 -  Utilizar repositório público no github, com todos os integrantes do grupo como
 colaboradores e disponibilização de uma GithubPage com o projeto;
 
-# **Site**
-
-<img  src="./src/views/pages/assets/site-beta.gif" alt="">
-
 
 # **Github Pages**
 
