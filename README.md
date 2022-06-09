@@ -47,10 +47,8 @@ colaboradores e disponibilização de uma GithubPage com o projeto;
 
 # **Site**
 
-<img  align=center class="logo-header" src="./src/views/pages/assets/site-beta.gif" alt="">
+<img class="logo-header" src="./src/views/pages/assets/site-beta.gif" alt="">
 
-<br>
-<br>
 
 # **Github Pages**
 
