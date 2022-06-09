@@ -1,7 +1,6 @@
 <h1 align="center"> Beta Programmers 💜</h1>
  <img class="logo-header" src="./src/views/pages/assets/Beta%20Programmers.jpg" alt="">
-<br>
-<br>
+
 
 <div id="inicio" align=center>
 <h2><strong>Status do Projeto</strong></h2>
