@@ -13,6 +13,12 @@ body {
     background-color: #F0EFF4;
 
 }
+
+a {
+    text-decoration: none;
+    color: #fffffF;
+}
+
 .container-hire {
     display: flex;
     align-items: center;
