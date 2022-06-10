@@ -341,6 +341,9 @@ a:hover + .valuesHover {
     font-family: "Courier New", monospace;
 }
 @media(max-width:800px){
+    body{
+        min-width: auto;
+    }
     .firstPhoto{
         width: 400px;
         min-height: 717px;
@@ -369,6 +372,9 @@ a:hover + .valuesHover {
     }
 }
 @media(max-width: 1100px){
+    body{
+        min-width: auto;
+    }
     .indicationText{
         white-space: break-spaces;
     }
@@ -376,7 +382,19 @@ a:hover + .valuesHover {
         min-height: 800px;
         max-width: 450px;    
 }
+
 }
 .rules p{
     text-align: justify;
+}
+@media(max-width:500px){
+    body{
+        max-width: 500px;
+        min-width: auto;
+    }
+}
+@media(max-width:650px){
+    body{
+        min-width: auto;
+    }
 }
