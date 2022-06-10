@@ -387,7 +387,7 @@ a:hover + .valuesHover {
         min-width: auto;
     }
 }
-@media(max-width:65s0px){
+@media(max-width:650px){
     body{
         min-width: auto;
     }
